@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do Liste</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>ToDo</h1>
+        <button id="add-new-btn">Opret opgave</button>
+        <form action="" id="add-new-form">
+            <input type="text" name="" id="new-title" placeholder="Opgave titel" required pattern="[ a-åA-Å0-9]+">
+            <input type="text" name="" id="new-text" placeholder="Opgave tekst" pattern="[ a-zA-Z0-9]+">
+            <input type="submit" value="OK">
+        </form> 
+        <hr>
+        <ul id="tasks">
+            <!-- <li class="done">
+                <h2>Titel</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius unde accusantium quisquam beatae, illum optio.</p>
+                <button onclick="deleteEntry(this.parentNode)">Slet</button>
+                <input type="checkbox" name="" id="" onchange="markTask(this.parentNode)">
+            </li> -->
+        </ul>
+    </div>
+</body>
+</html>
